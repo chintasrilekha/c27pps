@@ -10,9 +10,9 @@ var bird;
 function preload() {
     backgroundImg = loadImage("sprites/bg.png");
 }
-
+//It is to setup the screen
 function setup(){
-    var canvas = createCanvas(1200,400);
+    var canvas = createCanvas(1200,420);
     engine = Engine.create();
     world = engine.world;
 
